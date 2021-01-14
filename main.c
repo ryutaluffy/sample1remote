@@ -2,6 +2,6 @@
 
 int main() {
   int i = 13;
-  printf("hello\n", i);
+  for (i = 0; i < 10; i++) printf("hello\n", i);
   return 0;
 }
